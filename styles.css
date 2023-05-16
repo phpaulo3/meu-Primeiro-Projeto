@@ -1,0 +1,147 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 47px 32px 209px 42px;
+    cursor: pointer;
+    
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233d;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    
+}
+
+#link-products {
+    margin-right: 36px;
+}
+
+#link-login {
+    margin-top: 48px;
+    
+}
+
+#link-button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    border-top: 32px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+}
+
+.img-logo {
+ 
+    margin-left: 121px;
+    margin-right: 93.83px;
+    
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 47px;
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+
+    color: #161A49;
+   
+}
+
+p{
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 47px;
+    
+    
+}
+
+.section-link {
+    
+    height: 27px;
+    width: 112px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+    color: #6FBF44;
+
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        margin: 0;
+    }
+    .link-header{
+        display: none;
+    }
+    #link-button {
+        margin: 17px 15px 76px 244px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1px;
+    }
+ 
+    section {
+        position: absolute;
+        text-align: center;
+        margin: 0px 20px 0px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.596154px;
+        width: auto;
+        margin-top: 100px;
+        display: inline;
+    }
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        width: auto;
+
+    }
+    .section-link {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        
+    }
+    .img-logo {
+        position: absolute;
+        max-width: 90%;
+        margin: 300px 20px 50px 15px;
+    }
+
+}
